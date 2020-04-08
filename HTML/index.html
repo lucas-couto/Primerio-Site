@@ -1,0 +1,48 @@
+<!--Prefixes
+    b for Button
+    s for String
+    n for Number
+a for About
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contador de Cliques</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../CSS/main.css'>
+</head>
+<body>
+    <h1>Contador de Cliques</h1>
+    <div id="aClicks">
+       <span class="nClicks">0</span>
+       <p class="sClicks">Cliques:</p> 
+    </div>
+    <div id="aTimers">
+        <p class="sStatus">Vai começar em: <span class="nStatus"></span></p><br>
+        <span class="nTimer"></span>
+        <p class="sTimer">Tempo: </p>
+        <p class="sEnd">Acabou!!</p>
+    </div>
+    <div id="aButtons">
+        <button id="bAdd" onclick="addClick()">Adicionar Cliques</button><br>
+        <button id="bReset" onclick="resetClick()">Resetar Pontuacao</button><br>
+        <button id="bStart" onclick="beforeStart()">Iniciar contagem</button>
+    </div>
+ 
+
+    <select id="segundos">
+        <option value="5">5 seconds</option>
+        <option value="10">10 seconds</option>
+        <option value="15">15 seconds</option>
+        <option value="20">20 seconds</option>
+        <option value="25">25 seconds</option>
+        <option value="30">30 seconds</option>
+    </select>
+
+    <script src="../JS/button.js"></script>
+    <script src="../JS/timer.js"></script>
+    <script src="../JS/anothers.js"></script>
+</body>
+</html>

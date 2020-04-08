@@ -1,0 +1,191 @@
+/*
+   Priority Ordem
+   1) Tags
+   2) Class
+   3) Id
+*/
+body{
+    background-color: snow;
+}
+
+h1{
+    position: absolute;
+    left: 35%;
+    top: 0%;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;    
+}
+.sClicks{
+    position: absolute;
+    left: 42%;
+    top: 39%;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 75px;
+}    
+.nClicks{ 
+    position: absolute;
+    left: 52%;
+    top: 45%;
+
+    width: 544px;
+    height: 150px;
+    
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+.sStatus{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+
+    width: 544px;
+    height: 150px;
+    
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 75px;
+}
+.nStatus{
+    color: red;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+}
+.nTimer{
+    position: absolute;
+    left: 50%;
+    top: 25.5%; 
+
+    color: red;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 75px;
+}
+.sTimer{
+    position: absolute;
+    left: 40%;
+    top: 20%; 
+
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 75px;
+}
+.sEnd{
+    position: absolute;
+    left: 43%;
+    top: 20%; 
+
+    color: red;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 75px;
+}
+
+#bAdd{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+
+    width: 264px;
+    height: 75.5px;
+
+    color: #fff;
+    background: #993232;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    
+    transform: rotate(0.18deg);
+}
+#bAdd:hover{
+    background-color: lightcoral;
+}
+
+#bReset{
+    position: absolute;
+    left: 25%;
+    top: 70%;
+
+    width: 264px;
+    height: 75.5px;
+
+    color: #fff;
+    background: #993232;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    transform: rotate(0.18deg); 
+}
+#bReset:hover{
+    background-color: lightcoral;
+}
+
+#bStart{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+
+    width: 264px;
+    height: 75.5px;
+
+    color:#fff ;
+    background: #993232;
+}
+#bStart:hover{
+    background-color: lightcoral;
+}
+
+
+#segundos{
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    
+    width: 264px;
+    height: 75.5px;
+
+    color: #000;
+    font-size: 24px;
+
+}
+#segundos:hover{
+    background-color: lightgray;
+}
